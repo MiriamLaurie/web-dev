@@ -245,7 +245,7 @@ h2 {
 .scroll-down {
     cursor: pointer;
     position: absolute;
-    bottom: 10px;
+    bottom: 10px!important;
     left: 50%;
     bottom: 40px;
     width: 24px;
