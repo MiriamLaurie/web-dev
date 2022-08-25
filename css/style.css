@@ -746,6 +746,7 @@ textarea {
     z-index: 1;
 }
 
+
 @media (max-width: 1024px) {
     .about-content {
         flex-direction: column;
@@ -795,7 +796,7 @@ textarea {
         font-size: 48px;
     }
 
-    .single-item-3 img {
+    .portfolio-items img {
         max-width: 95%;
     }
 
