@@ -15,10 +15,25 @@
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
+	<script>
+		$(function() {
+			$('.marquee').marquee({
+				/*duration: 7000,*/
+				startVisible: true,
+				duplicated: true
+			});
+		});
+	</script>
 </head>
 
 <body>
     <header>
+	    
+	    <div class='marquee' style='overflow:hidden'>jQuery plugin to scroll the text like the old traditional marquee. </div>
+	    
         <div class="slider single-item">
             <div class="slide-1">
                 <h1 class="wow fadeInDown">Верстка сайтов</h1>
